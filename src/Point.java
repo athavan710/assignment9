@@ -44,7 +44,7 @@ public class Point {
 
     public double yIntercept(Point point) {
         double slope = Slope(point);
-        return y - (slope * x);
+        return y - slope * x;
     }
 
     public void linearEquation(Point point) {
